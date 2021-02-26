@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 939546534}
   - component: {fileID: 939546533}
   - component: {fileID: 939546532}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -984,6 +984,16 @@ PrefabInstance:
       propertyPath: EnemyMask.m_Bits
       value: 256
       objectReference: {fileID: 0}
+    - target: {fileID: 5664617669648576866, guid: 708b82497bdd4814ea457083dedd4d14,
+        type: 3}
+      propertyPath: enemyDistance
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664617669648576866, guid: 708b82497bdd4814ea457083dedd4d14,
+        type: 3}
+      propertyPath: EndMask.m_Bits
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 5664617669648576867, guid: 708b82497bdd4814ea457083dedd4d14,
         type: 3}
       propertyPath: m_Enabled
@@ -992,7 +1002,7 @@ PrefabInstance:
     - target: {fileID: 6650418798620534708, guid: 708b82497bdd4814ea457083dedd4d14,
         type: 3}
       propertyPath: m_Name
-      value: EnemyCheck
+      value: PlayerCheck
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5664617669648576892, guid: 708b82497bdd4814ea457083dedd4d14, type: 3}
